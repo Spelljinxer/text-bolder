@@ -1,4 +1,15 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url(//fonts.googleapis.com/earlyaccess/nicomoji.css);
+@import url(//fonts.googleapis.com/earlyaccess/nikukyu.css);
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;800&display=swap');
+
+:root{
+  font-family: 'Montserrat', sans-serif;
+}
+
 input[type="text"] {
     width: 100%;
     padding: 12px 20px;
