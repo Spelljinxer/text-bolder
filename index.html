@@ -4,21 +4,20 @@
   <meta charset="utf-8">
   <title>Bold Text</title>
   <link rel="stylesheet" href="./style.css">
-  <style>
-    
-  </style>
 </head>
 <body>
-  <h1>Bold Text</h1>
-  <form>
-    <label for="text-input">Enter your text:</label>
+  <div class="container">
+    <h1>Text Bolder</h1>
+    <form>
+      <label for="text-input">Enter your text:</label>
+      <br>
+      <input type="text" id="text-input" name="text-input">
+      <br>
+      <input type="submit" value="Bold Text" onclick="boldText(event)">
+    </form>
     <br>
-    <input type="text" id="text-input" name="text-input">
-    <br>
-    <input type="submit" value="Bold Text" onclick="boldText(event)">
-  </form>
-  <br>
-  <div id="output"></div>
+    <div id="output"></div>
+  </div>
   <script src="bold_text.js"></script>
 </body>
 </html>
